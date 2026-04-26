@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Project
+data/raw/
+data/processed/
+results/runs/
+results/figures/*.png
+results/figures/*.pdf
+
+# Claude Code project-local settings (if any)
+.claude/
