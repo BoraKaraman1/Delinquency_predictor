@@ -11,9 +11,7 @@ venv/
 # OS
 .DS_Store
 
-# IDE
 .vscode/
-.idea/
 
 # Project
 data/raw/
@@ -22,5 +20,11 @@ results/runs/
 results/figures/*.png
 results/figures/*.pdf
 
-# Claude Code project-local settings (if any)
+
 .claude/
+.discussions/
+
+
+.env
+.env.*
+!.env.example

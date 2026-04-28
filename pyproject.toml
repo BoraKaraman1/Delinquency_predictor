@@ -3,7 +3,7 @@ name = "delinquency-forecasting"
 version = "0.0.1"
 description = "Classical vs modern time-series forecasting on US mortgage delinquency cohorts"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["pandas>=2.0"]
 
 [build-system]
 requires = ["setuptools>=68"]
