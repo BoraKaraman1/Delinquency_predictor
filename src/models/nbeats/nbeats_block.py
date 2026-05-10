@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 
 
-class NBeatsBLock(nn.module):
+class NBeatsBlock(nn.Module):
     """
     An N-Beats block. It takes a lookback window flattened and outputs two vectors
     backcast
@@ -27,7 +27,7 @@ class NBeatsBLock(nn.module):
             hidden_layer_widths,
             theta_dim, #number of basis functions
     ):
-        super().init()
+        super().__init__()
         
         #stack
         layers = []
@@ -44,8 +44,6 @@ class NBeatsBLock(nn.module):
         self.backcast_basis = nn.Parameter(torch.randn(input_size, theta_dim))
         self.forecast_basis = nn.Parameter(torch.randn(output_size, theta_dim))
 
-        nn.init.xavier_uniform_(self.backcast_basis)
-        nn.init.xavier_uniform_(self.forecast_basis)
 
     def forward (self, x):
 
