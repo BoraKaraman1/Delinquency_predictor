@@ -2,14 +2,6 @@
 
 > Experimental comparison of classical statistical and deep-learning forecasters on US mortgage delinquency cohorts, 2013-2022.
 
-## TL;DR
-
-> **[FINDING — to be written after experiments complete.]**
->
-> One-sentence primary result. Example shape: *"Globally-trained deep models (N-BEATS, TFT) outperformed per-series classical methods (SARIMA, ETS) at long horizons but not short horizons, with the gap [growing/narrowing] during the COVID stress period."*
-
-[Headline results table placeholder — sMAPE / MASE per model, all cohorts pooled, with Diebold-Mariano significance markers.]
-
 ## Research question
 
 **Primary:** On segmented US mortgage delinquency cohort data, does a globally-trained deep model outperform per-series classical forecasters, and under what conditions?

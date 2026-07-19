@@ -23,6 +23,9 @@ results/figures/*.pdf
 
 .claude/
 .discussions/
+.codex/
+AGENTS.md
+CLAUDE.md
 
 
 .env
